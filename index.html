@@ -7,23 +7,23 @@
             <div>
                 <h3>HOME</h3>
                 <div class="home-score">
-                    <h1 class="points-text"> 0 </h1>
+                    <h1 class="points-text" id="home-points-text"> 0 </h1>
                 </div>
                 <div class="add-points-bts"> 
-                    <button class="plus-one-point"> +1 </button>
-                    <button class="plus-two-point"> +2 </button>
-                    <button class="plus-three-point"> +3 </button>
+                    <button id="plus-one-point" onclick="plusOnePointHome()"> +1 </button>
+                    <button id="plus-two-point" onclick="plusThreePointHome()"> +2 </button>
+                    <button id="plus-three-point" onclick="plusThreePointHome()"> +3 </button>
                 </div>
             </div>
             <div>
                 <h3>GUEST</h3>
                 <div class="home-score">
-                    <h1 class="points-text"> 0 </h1>
+                    <h1 class="points-text" id="guest-points-text"> 0 </h1>
                 </div>
                 <div class="add-points-bts"> 
-                    <button class="plus-one-point"> +1 </button>
-                    <button class="plus-two-point"> +2 </button>
-                    <button class="plus-three-point"> +3 </button>
+                    <button id="plus-one-point" onclick="plusOnePointGuest()"> +1 </button>
+                    <button id="plus-two-point" onclick="plusTwoPointGuest()"> +2 </button>
+                    <button id="plus-three-point" onclick="plusThreePointGuest()"> +3 </button>
                 </div>
             </div>
         </div>
